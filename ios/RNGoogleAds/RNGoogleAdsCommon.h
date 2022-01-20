@@ -46,6 +46,7 @@
 - (void)setRequestId:(NSNumber *)requestId;
 @end
 
+extern NSString *const GOOGLE_ADS_EVENT_APP_OPEN;
 extern NSString *const GOOGLE_ADS_EVENT_INTERSTITIAL;
 extern NSString *const GOOGLE_ADS_EVENT_REWARDED;
 

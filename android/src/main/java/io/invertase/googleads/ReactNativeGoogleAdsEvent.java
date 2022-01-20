@@ -22,6 +22,7 @@ import com.facebook.react.bridge.WritableMap;
 import io.invertase.googleads.interfaces.NativeEvent;
 
 public class ReactNativeGoogleAdsEvent implements NativeEvent {
+  public static final String GOOGLE_ADS_EVENT_APP_OPEN = "google_ads_app_open_event";
   public static final String GOOGLE_ADS_EVENT_INTERSTITIAL = "google_ads_interstitial_event";
   public static final String GOOGLE_ADS_EVENT_REWARDED = "google_ads_rewarded_event";
 

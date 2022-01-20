@@ -19,6 +19,7 @@
 #import "RNGoogleAdsCommon.h"
 #import "common/RNRCTEventEmitter.h"
 
+NSString *const GOOGLE_ADS_EVENT_APP_OPEN = @"google_ads_app_open_event";
 NSString *const GOOGLE_ADS_EVENT_INTERSTITIAL = @"google_ads_interstitial_event";
 NSString *const GOOGLE_ADS_EVENT_REWARDED = @"google_ads_rewarded_event";
 NSString *const GOOGLE_ADS_EVENT_LOADED = @"loaded";
